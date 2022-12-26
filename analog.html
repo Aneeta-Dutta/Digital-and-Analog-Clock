@@ -1,0 +1,36 @@
+<! DOCTYPE HTML>
+<HTML>
+<head>
+	<title> Analog Clock </title>
+
+	<link rel="stylesheet" href="mystyle.css">
+
+</head>
+<body>
+	<div id = "Analog Clock" class="A_Clock">
+		<div id="hour" class="hour"></div>
+        <div id="minute" class="minute"></div>
+        <div id="second" class="second"></div>
+	</div>
+	<script>
+		var addClock = setInterval(function clock(){
+		var date = new Date();
+		var h = date.getHours();
+		var m = date.getMinutes();
+		var s = date.getSeconds();
+
+		h_rotation = 30 * h + m / 2; //converting current time
+    	m_rotation = 6 * m;
+    	s_rotation = 6 * s;
+  
+	    hour.style.transform = `rotate(${h_rotation}deg)`;
+   		minute.style.transform = `rotate(${m_rotation}deg)`;
+   		second.style.transform = `rotate(${s_rotation}deg)`;
+		
+		}, 1000);
+
+		
+	</script>
+</body>
+
+</HTML>

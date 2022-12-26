@@ -1,0 +1,76 @@
+body{
+		background-image: url("1133842.jpg");
+		background-color: teal;
+		background-position: center; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+  		background-size: cover; /* Resize the background image to cover the entire container */
+		
+		}
+		.Clock{
+			position: absolute;
+			color: black;
+			top: 50%;
+			left: 45%;
+			transform:translateX(-50%) translateY(-50%);
+			font-size: 500%;
+			font-family:Orbitron;
+			letter-spacing: 7px;
+		}
+		.button {
+      		background-color: #000000;
+      		color: white;
+     		padding: 14px 28px;
+      		font-size: 16px;
+      		cursor: pointer;
+      		text-align: center;
+      		border-radius: 15%;
+      		position: absolute;
+      		top: 60%;
+			left: 40%;
+    	}
+
+		.A_Clock {
+        	 position: relative;
+        	 background: url(analog.png) no-repeat;
+        	 background-size: 100%;
+        	 position: absolute;
+      		top: 5%;
+			left: 20%;
+        	 margin-top: 2%;
+        	 margin: auto;
+        	 height: 90vh;
+        	 width: 90vh;
+      	}
+      	.hour {
+        	 position: absolute;
+        	 background: black;
+        	 border-radius: 10px;
+        	 transform-origin: bottom;
+        	 height: 25%;
+        	 top: 25%;
+        	 left: 48.85%;
+        	 opacity: 0.8;
+        	 width: 2%;
+      	}
+      	.minute {
+        	 position: absolute;
+        	 background: black;
+        	 border-radius: 10px;
+        	 transform-origin: bottom;
+        	 left: 48.9%;
+        	 opacity: 0.8;
+        	 width: 1.6%;
+        	 height: 32%;
+        	 top: 18%;
+      	}
+      	.second {
+        	 position: absolute;
+        	 background: black;
+        	 border-radius: 10px;
+        	 transform-origin: bottom;
+        	 width: 1%;
+        	 height: 36%;
+        	 top: 14%;
+        	 left: 50%;
+        	 opacity: 0.8;
+      }
