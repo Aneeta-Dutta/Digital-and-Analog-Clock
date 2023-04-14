@@ -1,5 +1,6 @@
 # Digital-and-Analog-Clock
-## Digital and Analog Clock using HTML and CSS
+### Digital and Analog Clock using HTML and CSS
+A mini project I made during my break time.
 
 ![digital_clock](https://user-images.githubusercontent.com/54201538/209545801-8f316f87-c360-490d-ac55-320c5f3a395b.png)
 
